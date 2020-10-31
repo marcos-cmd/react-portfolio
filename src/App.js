@@ -6,6 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 // import './App.css';
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+
 
 class App extends React.Component {
 
@@ -19,9 +21,9 @@ class App extends React.Component {
         {title: 'Contact', path: '/contact'},
       ],
       home: {
-        title: 'Be Relentless',
-        subTitle: 'Projects that make a difference',
-        text: 'See what I have been working on below'
+        title: 'Marcos J. Garcia',
+        subTitle: 'Hi there! ',
+        text: 'I am a student affairs professional currently working at California College of the Arts. This site will document my journey learning the world of web development. It will showcase the projects I work on and offer opportunities for you to connect with me.'
       },
       about: {
         title: 'About Me'
@@ -44,10 +46,13 @@ class App extends React.Component {
                   <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/about">About</Link>
                   <Link className="nav-link" to="/contact">Contact</Link>
+
                </Nav>
              </Navbar.Collapse>
           </Navbar>
-          
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          {/* <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} /> */}
           <Footer />
         </Container>
       </Router>
