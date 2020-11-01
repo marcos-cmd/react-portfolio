@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function AboutPage(props) {
     return (
@@ -25,22 +26,18 @@ function AboutPage(props) {
                     <Card.Body>
                         <Card.Title className="c-card-title">Follow me on Github</Card.Title>
                         
-                        <Button variant="info" size="lg" href="https://github.com/marcos-cmd" block><FontAwesomeIcon icon={} size="5x" className="card-icon" /></Button>
+                        <Button variant="info" size="lg" href="https://github.com/marcos-cmd" block><FontAwesomeIcon icon={faGithub} size="5x" className="card-icon" /></Button>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
-                        <Card.Title className="c-card-title">Send Me an Email</Card.Title>
-                        <FontAwesomeIcon icon={faEnvelopeOpenText} size="5x" className="card-icon" />
-                        <Button variant="info" size="lg" href="mailto:marcos.joseph.garcia@gmail.com" block>Send me an Email</Button>
+                        <Card.Title className="c-card-title">Connect with me on LinkedIn</Card.Title>
+                        
+                        <Button variant="info" size="lg" href="https://www.linkedin.com/in/marcosjgarcia/" block><FontAwesomeIcon icon={faLinkedin} size="5x" className="card-icon" /></Button>
                     </Card.Body>
                 </Card>
-</CardDeck>
-
+            </CardDeck>
             </Container>
-            
-                
-           
         </div>
     );
 }

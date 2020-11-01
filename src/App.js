@@ -26,14 +26,19 @@ class App extends React.Component {
       ],
       home: {
         title: 'Marcos J. Garcia',
-        subTitle: 'Hi there! ',
-        text: 'Welcome to my portfolio! This site will document my journey as I learn more about the world of web development. It will showcase the projects I work on and offer opportunities for you to connect with me.'
+        subTitle: 'Hello there!',
+        text: 'This site will document my journey as I learn more about the world of web development. It will showcase the projects I work on and offer opportunities for you to connect with me.'
       },
       about: {
         title: 'About Me'
       },
       contact: {
         title: 'Contact Me'
+      },
+      portfolio: {
+        title: 'Portfolio',
+        subTitle: 'Browse a collection of my work',
+        text: 'Click the image to view the code or deployment of the application.'
       },
     }
   }
@@ -58,7 +63,7 @@ class App extends React.Component {
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
-          <Route path="/portfolio" render={() => <PortfolioPage title={this.state.portfolio.title} />} />
+          <Route path="/portfolio" render={() => <PortfolioPage title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} text={this.state.portfolio.text} />} />
           
         </Container>
       </Router>
