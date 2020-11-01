@@ -19,7 +19,8 @@ class Carousel extends React.Component {
                     title: 'Trivia Game',
                     subTitle: 'My first Group Project using JavaScript',
                     imgSrc: trivia,
-                    link: 'https://github.com/marcos-cmd/Project1-Trivia-App',
+                    code: 'https://github.com/marcos-cmd/Project1-Trivia-App',
+                    deploy: 'https://marcos-cmd.github.io/Project1-Trivia-App/',
                     selected: false
                 },
                 {
@@ -27,7 +28,8 @@ class Carousel extends React.Component {
                     title: 'Weather Dashboard',
                     subTitle: 'Check the Weather in your favorite city',
                     imgSrc: weather,
-                    link: 'https://github.com/marcos-cmd/weather-dashboard',
+                    code: 'https://github.com/marcos-cmd/weather-dashboard',
+                    deploy: 'https://marcos-cmd.github.io/weather-dashboard/',
                     selected: false
                 },
                 {
@@ -35,7 +37,8 @@ class Carousel extends React.Component {
                     title: 'Password Generator',
                     subTitle: 'Create a password using letters, numbers, and symbols',
                     imgSrc: password,
-                    link: 'https://github.com/marcos-cmd/Password-Generator',
+                    code: 'https://github.com/marcos-cmd/Password-Generator',
+                    deploy: 'https://marcos-cmd.github.io/Password-Generator/',
                     selected: false
                 },
                 {
@@ -43,7 +46,8 @@ class Carousel extends React.Component {
                     title: 'Take the Note',
                     subTitle: 'Write a note and save it for later using this application',
                     imgSrc: takenote,
-                    link: 'https://github.com/marcos-cmd/Take-the-Note',
+                    code: 'https://github.com/marcos-cmd/Take-the-Note',
+                    deploy: 'https://take-the-note.herokuapp.com/',
                     selected: false
                 },
                 {
@@ -51,7 +55,8 @@ class Carousel extends React.Component {
                     title: 'Employee Tracker',
                     subTitle: 'Use this command line application to keep track of your employees',
                     imgSrc: employee,
-                    link: 'https://github.com/marcos-cmd/12-employee-tracker',
+                    code: 'https://github.com/marcos-cmd/12-employee-tracker',
+                    deploy: 'https://github.com/marcos-cmd/12-employee-tracker#preview-application',
                     selected: false
                 },
             ]
