@@ -25,7 +25,7 @@ function AboutPage(props) {
                     <Card.Body>
                         <Card.Title className="c-card-title">Follow me on Github</Card.Title>
                         
-                        <Button variant="info" size="lg" href="https://github.com/marcos-cmd" block><FontAwesomeIcon icon={faConnect} size="5x" className="card-icon" /></Button>
+                        <Button variant="info" size="lg" href="https://github.com/marcos-cmd" block><FontAwesomeIcon icon={} size="5x" className="card-icon" /></Button>
                     </Card.Body>
                 </Card>
                 <Card>
