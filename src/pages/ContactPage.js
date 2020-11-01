@@ -24,13 +24,13 @@ function AboutPage(props) {
                 <Card>
                     <Card.Body>
                         <Card.Title className="c-card-title">Follow me on Github</Card.Title>
-                        <Button variant="info" size="lg" href="https://github.com/marcos-cmd" block><FontAwesomeIcon icon={faGithub} size="5x" className="card-icon" /></Button>
+                        <Button variant="info" size="lg" target='_blank' href="https://github.com/marcos-cmd" block><FontAwesomeIcon icon={faGithub} size="5x" className="card-icon" /></Button>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
                         <Card.Title className="c-card-title">Connect with me on LinkedIn</Card.Title>
-                        <Button variant="info" size="lg" href="https://www.linkedin.com/in/marcosjgarcia/" block><FontAwesomeIcon icon={faLinkedin} size="5x" className="card-icon" /></Button>
+                        <Button variant="info" size="lg" target='_blank' href="https://www.linkedin.com/in/marcosjgarcia/" block><FontAwesomeIcon icon={faLinkedin} size="5x" className="card-icon" /></Button>
                     </Card.Body>
                 </Card>
             </CardDeck>
@@ -49,7 +49,7 @@ function AboutPage(props) {
                         </p>
                         <footer className="blockquote-footer">
                             <small className="text-muted">
-                                James Baldwin in <cite title="https://www.theparisreview.org/interviews/2994/the-art-of-fiction-no-78-james-baldwin">The Paris Review</cite>
+                                James Baldwin in <cite target='_blank' href="https://www.theparisreview.org/interviews/2994/the-art-of-fiction-no-78-james-baldwin">The Paris Review</cite>
                             </small>
                         </footer>
                     </blockquote>
@@ -57,7 +57,7 @@ function AboutPage(props) {
                 <Card>
                     <Card.Body>
                         <Card.Title className="c-card-title">Follow me on Medium</Card.Title>
-                        <Button variant="info" size="lg" href="https://medium.com/@marcos-cmd" block><FontAwesomeIcon icon={faMedium} size="5x" className="card-icon" /></Button>
+                        <Button variant="info" size="lg" target='_blank' href="https://medium.com/@marcos-cmd" block><FontAwesomeIcon icon={faMedium} size="5x" className="card-icon" /></Button>
                     </Card.Body>
                 </Card>
             </CardDeck>
