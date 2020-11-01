@@ -1,11 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-// import './App.css';
-import Footer from './components/Footer';
+import './App.css';
+import logo from './assets/images/favicon.ico';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -47,7 +46,9 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-              <Navbar.Brand>Marcos J. Garcia</Navbar.Brand>
+              <Navbar.Brand>
+                <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="MarcosDesigns"/>
+              </Navbar.Brand>
 
              <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
               <Navbar.Collapse id="navbar-toggle">

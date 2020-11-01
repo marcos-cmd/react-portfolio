@@ -6,7 +6,6 @@ import takenote from '../assets/images/take_the_note.png';
 import employee from '../assets/images/template_engine.png';
 
 import Card from './Card';
-import CardInfo from './CardInfo';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
