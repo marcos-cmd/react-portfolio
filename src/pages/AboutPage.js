@@ -16,7 +16,7 @@ function AboutPage(props) {
                     <Col md={5}>
                         <Image src={me} className="img-me" roundedCircle />
                     </Col>
-                    <Col>
+                    <Col md={5}>
                         <Content>
                             <p>I am a student affairs professional currently working at California College of the Arts.</p>
                             <p>I supervise art & design students in paraprofessional leadership roles. My time working with these talented students has ignited a personal passion to continue my own growth & development. The pandemic offered me quite a bit of free time while I have spent most of 2020 quarantined in San Francisco. What better time to learn new skills?</p>
