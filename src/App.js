@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import './App.css';
 import logo from './assets/images/favicon.ico';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import PortfolioPage from './pages/PortfolioPage';
+import './index.css';
+
 
 
 class App extends React.Component {
@@ -45,9 +46,9 @@ class App extends React.Component {
     return(
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar bg="transparent" expand="lg">
               <Navbar.Brand>
-                <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="MarcosDesigns"/>
+                <img  className="d-inline-block align-top" />
               </Navbar.Brand>
 
              <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />

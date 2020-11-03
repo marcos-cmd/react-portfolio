@@ -62,6 +62,7 @@ function AboutPage(props) {
                 </Card>
             </CardDeck>
             </Container>
+            <Hero />
         </div>
     );
 }

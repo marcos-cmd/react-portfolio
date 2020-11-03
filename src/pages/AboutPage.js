@@ -26,8 +26,8 @@ function AboutPage(props) {
                     </Col>
                 </Row>
             </Container>
-            
-                
+            <Hero />
+            <Hero />
            
         </div>
     );
