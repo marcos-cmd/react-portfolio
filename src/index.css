@@ -3,8 +3,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #77A1D3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom left, #e39ab9, #79CBCA, #8ba9ce);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom left, #e39ab9, #79CBCA, #8ba9ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom left, #ffafd9, #affffc,#afd9ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom left, #ffafd9, #affffc,#afd9ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
           }
 
 code {
