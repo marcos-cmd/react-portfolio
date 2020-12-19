@@ -58,7 +58,7 @@ class Carousel extends React.Component {
                     title: 'Employee Tracker',
                     subTitle: 'Use this command line application to keep track of your employees',
                     imgSrc: employee,
-                    code: 'https://github.com/marcos-cmd/12-employee-tracker',
+                    code: 'https://github.com/marcos-cmd/Employee-tracker',
                     deploy: 'https://github.com/marcos-cmd/12-employee-tracker#preview-application',
                     selected: false
                 },
