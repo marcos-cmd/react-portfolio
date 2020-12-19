@@ -19,16 +19,16 @@ function AboutPage(props) {
                     <Col md={5}>
                         <Content>
                             <p>I am a student affairs professional currently working at California College of the Arts.</p>
-                            <p>I supervise art & design students in paraprofessional leadership roles. My time working with these talented students has ignited a personal passion to continue my own growth & development. The pandemic offered me quite a bit of free time while I have spent most of 2020 quarantined in San Francisco. What better time to learn new skills?</p>
-                            <p>As I learned more about coding and web development, I took a leap and enrolled in a Full-Stack Web Development Bootcamp through UC Berkeley.</p>
-                            <p>I am approaching my graduation date, and I am happy to say that I am feeling quite comfortable coding in HTML, CSS, & JavaScript. I have also learned some helpful JS libraries as well, including Node, React & Redux.</p>
+                            <p>I supervise art & design students in paraprofessional leadership roles. Working with these talented students has ignited a personal passion for continuing my growth & development. The pandemic offered me quite a bit of free time while I have spent most of 2020 quarantined in San Francisco. What better time to learn new skills?</p>
+                            <p>After learning the basics of coding, I decided to invest in myself and gain a deeper understanding. I leaped into a Full-Stack Web Development Bootcamp through UC Berkeley.</p>
+                            <p>I am approaching my graduation date, and I am happy to say that I feel comfortable coding HTML, CSS, & JavaScript. Also, I have learned some helpful JavaScript libraries as well, including Node, React & Redux.</p>
                         </Content>
                     </Col>
                 </Row>
             </Container>
             <Hero />
             <Hero />
-           
+
         </div>
     );
 }
