@@ -76,8 +76,8 @@ class Carousel extends React.Component {
                     title: 'Workout Tracker',
                     subTitle: 'This application tracks workouts using a Mongo database with a Mongoose schema and handles routes with Express',
                     imgSrc: workout,
-                    code: 'https://github.com/marcos-cmd/React-google-books-search',
-                    deploy: 'https://mysterious-journey-20132.herokuapp.com/',
+                    code: 'https://github.com/marcos-cmd/Workout-tracker',
+                    deploy: 'https://warm-plateau-27217.herokuapp.com/',
                     selected: false
                 },
                 {
