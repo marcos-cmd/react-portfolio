@@ -4,6 +4,9 @@ import weather from '../assets/images/weather_dashboard.png';
 import password from '../assets/images/password_generator.png';
 import takenote from '../assets/images/take_the_note.png';
 import employee from '../assets/images/template_engine.png';
+import directory from '../assets/images/directory.png';
+import search from '../assets/images/saved.png';
+import workout from '../assets/images/dashboard.png';
 
 import Card from './Card';
 import Container from 'react-bootstrap/Container';
@@ -59,15 +62,42 @@ class Carousel extends React.Component {
                     deploy: 'https://github.com/marcos-cmd/12-employee-tracker#preview-application',
                     selected: false
                 },
+                {
+                    id: 5,
+                    title: 'React Google Books Search',
+                    subTitle: 'Use this react application to search for books and save them to your "read later" list',
+                    imgSrc: search,
+                    code: 'https://github.com/marcos-cmd/React-google-books-search',
+                    deploy: 'https://mysterious-journey-20132.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 6,
+                    title: 'Workout Tracker',
+                    subTitle: 'This application tracks workouts using a Mongo database with a Mongoose schema and handles routes with Express',
+                    imgSrc: workout,
+                    code: 'https://github.com/marcos-cmd/React-google-books-search',
+                    deploy: 'https://mysterious-journey-20132.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 7,
+                    title: 'Employee Directory',
+                    subTitle: 'This react application breaks the UI into components, manages component state, and responds to user events',
+                    imgSrc: directory,
+                    code: 'https://github.com/marcos-cmd/Employee-directory',
+                    deploy: 'https://marcos-cmd.github.io/Employee-directory/',
+                    selected: false
+                },
             ]
-        }    
+        }
     }
 
     handleCardClick = (id, card) => {
         let items = [...this.state.items];
-    
+
         items[id].selected = items[id].selected ? false : true;
-    
+
         items.forEach(item => {
             if (item.id !== id) {
                 item.selected = false;
@@ -77,19 +107,19 @@ class Carousel extends React.Component {
             items
         });
     }
-    
+
     makeItems = (items) => {
         return items.map(item => {
             return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
         })
     }
-    
+
     render() {
-        return(
+        return (
             <Container fluid={true}>
-            <Row className="justify-content-around">
-                {this.makeItems(this.state.items)}
-            </Row>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items)}
+                </Row>
             </Container>
         );
     }
