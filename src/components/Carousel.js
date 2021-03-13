@@ -7,7 +7,7 @@ import employee from '../assets/images/template_engine.png';
 import directory from '../assets/images/directory.png';
 import search from '../assets/images/saved.png';
 import workout from '../assets/images/dashboard.png';
-
+import roaming from '../assets/images/roaming.png';
 import Card from './Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -19,6 +19,15 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
+                    title: 'Roaming Rona',
+                    subTitle: 'Final group project for bootcamp. We created an application that tracks Covid-19. My main contributions were backend features and data visualizations.',
+                    imgSrc: roaming,
+                    code: 'https://github.com/marcos-cmd/roaming-rona-fork',
+                    deploy: 'https://roaming-rona-fork.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 1,
                     title: 'Trivia Game',
                     subTitle: 'My first Group Project using JavaScript',
                     imgSrc: trivia,
@@ -27,7 +36,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 1,
+                    id: 2,
                     title: 'Weather Dashboard',
                     subTitle: 'Check the Weather in your favorite city',
                     imgSrc: weather,
@@ -36,7 +45,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 2,
+                    id: 3,
                     title: 'Password Generator',
                     subTitle: 'Create a password using letters, numbers, and symbols',
                     imgSrc: password,
@@ -45,7 +54,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: 'Take the Note',
                     subTitle: 'Write a note and save it for later using this application',
                     imgSrc: takenote,
@@ -54,7 +63,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 4,
+                    id: 5,
                     title: 'Employee Tracker',
                     subTitle: 'Use this command line application to keep track of your employees',
                     imgSrc: employee,
@@ -63,7 +72,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 5,
+                    id: 6,
                     title: 'React Google Books Search',
                     subTitle: 'Use this react application to search for books and save them to your "read later" list',
                     imgSrc: search,
@@ -72,7 +81,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 6,
+                    id: 7,
                     title: 'Workout Tracker',
                     subTitle: 'This application tracks workouts using a Mongo database with a Mongoose schema and handles routes with Express',
                     imgSrc: workout,
@@ -81,7 +90,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 7,
+                    id: 8,
                     title: 'Employee Directory',
                     subTitle: 'This react application breaks the UI into components, manages component state, and responds to user events',
                     imgSrc: directory,

@@ -36,8 +36,6 @@ function AboutPage(props) {
                     </Col>
                 </Row>
             </Container>
-            
-            <Hero />
             <Timeline>
                 <Events>
                     <TextEvent date="December 2020" text="Graduated from UC Berkeley's Coding BootCamp" />
