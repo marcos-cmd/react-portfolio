@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
+import MyPDF from '../assets/files/MJG2021.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpenText, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons';
@@ -39,7 +40,7 @@ function AboutPage(props) {
                         <Card.Body>
                             <Card.Title className="c-card-title">View my Resume</Card.Title>
 
-                            <Button variant="info" size="lg" href="mailto:marcos.joseph.garcia@gmail.com" block><FontAwesomeIcon icon={faFileDownload} size="5x" className="card-icon" /></Button>
+                            <Button variant="info" size="lg" href={MyPDF} block download="MJG2021.pdf"><FontAwesomeIcon icon={faFileDownload} size="5x" className="card-icon" /></Button>
                         </Card.Body>
                     </Card>
                     <Card border="light">
