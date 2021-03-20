@@ -23,7 +23,7 @@ class Carousel extends React.Component {
                     subTitle: 'Final group project for bootcamp. We created an application that tracks Covid-19. My main contributions were backend features and data visualizations.',
                     imgSrc: roaming,
                     code: 'https://github.com/marcos-cmd/roaming-rona-fork',
-                    deploy: 'https://roaming-rona-fork.herokuapp.com/',
+                    deploy: 'https://roaming-rona-fork.herokuapp.com',
                     selected: false
                 },
                 {
